@@ -1,0 +1,38 @@
+
+body{
+    background-color: lightgray;
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar-name{
+    float: left;
+    position: absolute;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-bottom: 2em;
+}
+.navbar-container{
+    background-color: black;
+    float: left;
+    position: absolute;
+    width: 100%;
+}
+.navbar-container a{
+    /*background-color: aqua;*/
+    text-decoration: none;
+    color: white;
+    letter-spacing: 5px;
+}
+.link li{
+    list-style-type: none;
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 1em;
+    margin-bottom: 2em;
+}
+.navbar-link ul{
+    float: right;
+}
+.links a:hover{
+    color: #faf562;
+}
